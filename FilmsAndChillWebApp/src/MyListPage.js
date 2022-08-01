@@ -65,14 +65,14 @@ class MyListPage extends React.Component {
           />
 
           <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" className="twitter-share-button" data-size="large" data-text={`Check out what I&#39;m watching! Username: ${localStorage.getItem('username')}`} data-url="https://ourWebsiteDomain.com" data-hashtags="#MyMovieList" data-show-count="false">
-            <img src="https://uxwing.com/wp-content/themes/uxwing/download/10-brands-and-social-media/twitter-share-button.png"/>
+            <img src="https://cdn.iconscout.com/icon/free/png-256/twitter-share-button-3289861-2758559.png" alt="Twitter share button"/>
           </a>
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           {/* Facebook button plugin */}
           <div id="fb-root"></div>
           <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" nonce="fAVIvF7f"></script>
-          <div className="fb-share-button" data-href="https://OurWebsiteDomain" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2FlocalHost:3000%2F&amp;src=sdkpreparse" className="fb-xfbml-parse-ignore">
-          <img src="https://tapnetwork2030.org/wp-content/uploads/2016/04/fb-big-share.jpg"/>
+          <div className="fb-share-button" data-href="https://OurWebsiteDomain" data-layout="button" data-size="small"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2FlocalHost:3000%2F&amp;src=sdkpreparse" className="fb-xfbml-parse-ignore">
+          <img src="https://tapnetwork2030.org/wp-content/uploads/2016/04/fb-big-share.jpg" alt="Facebook share button" />
           </a></div>
         </div>
       );
