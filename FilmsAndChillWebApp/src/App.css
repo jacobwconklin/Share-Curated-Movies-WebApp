@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+  background: radial-gradient(at top, rgba(232,69,69,1) 0%, rgba(43,46,74,1) 12%, rgba(144,55,73,1) 50%);
+  height: 10000px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.HeaderBar {
+  height: 50px;
+  background-color: darksalmon;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  z-index: -1;
+}
+.RouterLink {
+  margin: auto;
+  margin-top: 10px;
+  font-size:x-large
+}
+.SignOutButton {
+  height: 50px;
+}
+.App-link {
+  color: #61DAFB;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.ValidResults {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.FilterAccordian {
+  margin: auto;
+  width: 220px;
+}
+.SignOutButton {
+  color: black;
+  margin: auto;
+  margin-top: 10px;
+  font-size:x-large
+}
+.MovieCardImage {
+  position: relative;
+}
+.AddToListButton {
+  background-color: lightgray;
+}
+.SignUpPage {
+  background-color: whitesmoke;
+  border-color: black;
+  border-style: groove;
+  border-width: 5px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    z-index: 2;
+  }
+.SignUpButtons {
+  font-size: x-large;
+  width: 250px;
+}
+.SignUpBackground {
+  background: radial-gradient(at top, rgba(232,69,69,1) 0%, rgba(43,46,74,1) 12%, rgba(144,55,73,1) 50%);
+  height: 2000px;
+  width: 10000px;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.SearchOtherUsersButton {
+  height: 56px;
+}
+
+.GradientBackground {
+  background: radial-gradient(at top, rgba(232,69,69,1) 0%, rgba(43,46,74,1) 12%, rgba(144,55,73,1) 50%);
+  height: 2000px;
+  width: 10000px;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.ImageBackground {
+  background-image: url("F&C_bck.jpeg");
+  background-size: contain;
+  height: 2000px;
+  width: 10000px;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.FilterButtons {
+  width: 180px
+}
+.logo{
+  height: 50px;
+  top: 0;
+  left: 0;
+  margin-top: -200;
+  
+  
+}
